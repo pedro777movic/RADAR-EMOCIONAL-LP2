@@ -3,10 +3,12 @@ import { MotionWrapper } from './motion-wrapper';
 import { Check } from 'lucide-react';
 
 const features = [
-  'Acesso imediato ao diagnóstico completo',
+  'Um diagnóstico inicial baseado na sua situação',
   'Análise clara do padrão atual da relação',
-  'Ajustes práticos de reposicionamento',
-  'Orientações diretas organizadas por etapas',
+  'Explicação do que está causando o esfriamento',
+  'Plano prático de reposicionamento em etapas',
+  'Orientações diretas e aplicáveis',
+  'Estratégias para recuperar controle emocional',
 ];
 
 export function CtaSection() {
