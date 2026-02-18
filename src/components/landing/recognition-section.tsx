@@ -19,7 +19,7 @@ export function RecognitionSection() {
         
         <MotionWrapper transition={{ duration: 0.6, delay: 0.2 }}>
             <div className="glass flex flex-col items-center justify-center rounded-xl p-8 text-center">
-                <p className="text-xl font-semibold">E o mais estranho?</p>
+                <p className="text-xl font-semibold">E o mais confuso?</p>
                 <p className="mt-4 text-lg text-muted-foreground">
                 Ele ainda aparece. Ainda visualiza. Ainda mantém você ali.
                 </p>
