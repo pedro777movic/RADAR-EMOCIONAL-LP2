@@ -28,7 +28,7 @@ export function TruthSection() {
         <MotionWrapper>
           <div className="text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Homens não se afastam porque perderam o sentimento.
+              Na maioria das vezes, homens não se afastam porque perderam o sentimento.
               <br />
               <span className="text-accent">Eles se afastam quando:</span>
             </h2>
