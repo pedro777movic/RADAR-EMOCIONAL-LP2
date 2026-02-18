@@ -13,17 +13,13 @@ export function GuaranteeSection() {
             </div>
           </div>
           <h2 className="mt-8 font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl">
-            Risco Zero
+            Risco Realmente Baixo
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
-            Você pode acessar. Ler. Aplicar.
-            <br />
-            Se não sentir diferença na forma como ele reage…
-            <br />
-            <span className="font-semibold text-foreground">Você simplesmente não continua.</span>
+            O valor é menor que uma saída comum. Você acessa instantaneamente. Lê. Aplica. Avalia por si mesma.
           </p>
           <p className="mt-4 text-sm font-bold uppercase tracking-widest text-foreground">
-            Sem letras miúdas.
+            Sem assinatura. Sem cobranças recorrentes. Sem surpresas.
           </p>
         </MotionWrapper>
       </div>
