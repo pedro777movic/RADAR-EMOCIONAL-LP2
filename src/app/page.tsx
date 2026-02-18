@@ -17,8 +17,8 @@ export default function Home() {
       <MechanismSection />
       <BenefitsSection />
       <TargetAudienceSection />
-      <GuaranteeSection />
       <CtaSection />
+      <GuaranteeSection />
       <Footer />
     </div>
   );
