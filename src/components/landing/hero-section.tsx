@@ -39,10 +39,12 @@ export function HeroSection() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
         >
-          <Button size="lg" className="mt-10 animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)]">
-            Quero entender o que está acontecendo
-            <MoveRight className="ml-2 h-5 w-5" />
-          </Button>
+          <a href="https://pay.cakto.com.br/39e5qza_779133">
+            <Button size="lg" className="mt-10 animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)]">
+              Quero entender o que está acontecendo
+              <MoveRight className="ml-2 h-5 w-5" />
+            </Button>
+          </a>
         </motion.div>
       </div>
 

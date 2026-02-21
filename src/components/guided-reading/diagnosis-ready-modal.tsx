@@ -17,7 +17,7 @@ type DiagnosisReadyModalProps = {
 export function DiagnosisReadyModal({ open, onOpenChange }: DiagnosisReadyModalProps) {
   const handleButtonClick = () => {
     // NOTE: Firebase event 'diagnosis_cta_click' would be triggered here.
-    onOpenChange(false);
+    window.location.href = 'https://pay.cakto.com.br/39e5qza_779133';
   };
   
   const onOpenChangeInternal = (isOpen: boolean) => {
@@ -39,9 +39,11 @@ export function DiagnosisReadyModal({ open, onOpenChange }: DiagnosisReadyModalP
           </DialogDescription>
         </DialogHeader>
         <div className="flex flex-col items-center gap-4 mt-4">
-          <Button onClick={handleButtonClick} size="lg" className="w-full font-bold">
-            Acessar meu Radar
-          </Button>
+          <a href="https://pay.cakto.com.br/39e5qza_779133" className="w-full">
+            <Button size="lg" className="w-full font-bold" onClick={handleButtonClick}>
+              Acessar meu Radar
+            </Button>
+          </a>
           <p className="text-xs text-muted-foreground">Aplicativo digital • Acesso imediato</p>
         </div>
       </DialogContent>

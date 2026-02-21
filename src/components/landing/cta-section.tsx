@@ -1,3 +1,4 @@
+'use client';
 import { Button } from '@/components/ui/button';
 import { MotionWrapper } from './motion-wrapper';
 import { Check } from 'lucide-react';
@@ -27,9 +28,11 @@ export function CtaSection() {
             <br />
             <span className="text-primary">Ou pode entender o padrão.</span>
           </h2>
-          <Button size="lg" className="mt-10 animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)]">
-            Quero acessar agora
-          </Button>
+          <a href="https://pay.cakto.com.br/39e5qza_779133">
+            <Button size="lg" className="mt-10 animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)]">
+              Quero acessar agora
+            </Button>
+          </a>
 
           <div className="mt-10 mx-auto max-w-md">
             <p className="text-base text-center font-medium text-foreground/90">Dentro do seu aplicativo Radar Emocional, você terá:</p>
