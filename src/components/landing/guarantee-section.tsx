@@ -13,14 +13,11 @@ export function GuaranteeSection() {
             </div>
           </div>
           <h2 className="mt-8 font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl">
-            Risco realmente baixo.
+            Acesso simples
           </h2>
           <div className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted-foreground space-y-4">
             <p>
-              O acesso ao Radar Emocional custa menos que uma saída comum.
-            </p>
-            <p>
-              Você acessa imediatamente, entende o padrão da situação e decide por si mesma se faz sentido aplicar.
+              Produto digital. Acesso imediato após pagamento.
             </p>
           </div>
           <div className="mt-8 space-y-1">

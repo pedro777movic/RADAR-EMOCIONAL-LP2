@@ -4,11 +4,10 @@ import { MotionWrapper } from './motion-wrapper';
 import { Check } from 'lucide-react';
 
 const features = [
-  'Um diagnóstico inicial baseado na sua situação',
-  'Análise clara do padrão atual da relação',
+  'Diagnóstico inicial baseado na sua situação',
+  'Análise clara da dinâmica atual da relação',
   'Explicação do que está causando o esfriamento',
   'Plano prático de reposicionamento em etapas',
-  'Orientações diretas e aplicáveis',
   'Estratégias para recuperar controle emocional',
 ];
 
@@ -21,11 +20,11 @@ export function CtaSection() {
             APP
           </p>
           <h3 className="font-headline text-4xl sm:text-5xl font-black text-accent mb-4 tracking-tight transform -rotate-2 [text-shadow:0_0_10px_hsl(var(--accent)),2px_2px_2px_rgba(0,0,0,0.3)] [-webkit-text-stroke:0.5px_red]">
-            Seu Radar Emocional
+            Radar Emocional
           </h3>
           <p className="mb-8 mx-auto max-w-2xl text-sm text-muted-foreground leading-relaxed">
-            Uma ferramenta criada para revelar o padrão emocional invisível que pode estar afetando a dinâmica da relação. 
-            Você recebe um diagnóstico claro da situação, além de orientações práticas para reposicionar a dinâmica emocional.
+            Uma ferramenta digital criada para revelar o padrão emocional invisível que pode estar afetando a relação. 
+            Você recebe um diagnóstico claro da situação e orientações práticas para reposicionar a dinâmica.
           </p>
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
             Você pode continuar tentando adivinhar.
@@ -43,7 +42,7 @@ export function CtaSection() {
           </div>
 
           <div className="mt-10 mx-auto max-w-md">
-            <p className="text-base text-center font-medium text-foreground/90">Dentro do seu aplicativo Radar Emocional, você terá:</p>
+            <p className="text-base text-center font-medium text-foreground/90">Dentro do Radar Emocional você terá:</p>
             <ul className="mt-4 space-y-2 text-left">
               {features.map((feature) => (
                 <li key={feature} className="flex items-start gap-2">
@@ -57,9 +56,6 @@ export function CtaSection() {
                 Aplicativo digital.
                 <br/>
                 Acesso instantâneo após a confirmação do pagamento.
-              </p>
-              <p className="mt-1 text-[10px] uppercase tracking-tighter text-muted-foreground/60">
-                Produto digital. Acesso imediato após pagamento.
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import { MotionWrapper } from './motion-wrapper';
 import { Card, CardHeader, CardTitle } from '@/components/ui/card';
-import { Eye, AlertTriangle, Sparkles, Magnet, Smile, BrainCircuit } from 'lucide-react';
+import { Eye, AlertTriangle, Sparkles, Magnet, Smile } from 'lucide-react';
 
 const benefits = [
   {
@@ -9,7 +9,7 @@ const benefits = [
   },
   {
     icon: <AlertTriangle className="size-8 text-primary" />,
-    text: 'O erro silencioso que quase toda mulher comete',
+    text: 'O erro silencioso que muitas mulheres cometem sem perceber',
   },
   {
     icon: <Sparkles className="size-8 text-primary" />,
@@ -17,11 +17,11 @@ const benefits = [
   },
   {
     icon: <Magnet className="size-8 text-primary" />,
-    text: 'Como fazer ele buscar você',
+    text: 'Como fazer ele voltar a buscar você',
   },
   {
     icon: <Smile className="size-8 text-primary" />,
-    text: 'Como sair da posição de ansiedade',
+    text: 'Como sair da posição de ansiedade emocional',
   },
 ];
 

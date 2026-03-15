@@ -2,10 +2,10 @@ import { MotionWrapper } from './motion-wrapper';
 import { CheckCircle2 } from 'lucide-react';
 
 const whoIsItFor = [
-  'Estão no início de algo e sentem que travou',
-  'Sentem que ele mudou repentinamente',
-  'Não querem parecer desesperadas ou carentes',
-  'Querem ser desejadas, não implorar atenção',
+  'Mulheres que estavam vivendo algo e sentem que esfriou',
+  'Quem percebe que ele mudou de comportamento',
+  'Quem não quer parecer carente ou desesperada',
+  'Quem quer ser desejada — não implorar atenção',
 ];
 
 export function TargetAudienceSection() {
@@ -27,7 +27,7 @@ export function TargetAudienceSection() {
             </ul>
             <div className="mt-8 rounded-lg border border-accent/50 bg-accent/10 p-4 text-center">
               <p className="font-semibold text-accent-foreground">
-                "Não é para quem quer joguinhos infantis. É para quem quer consciência emocional."
+                "Não é para quem quer joguinhos. É para quem quer consciência emocional."
               </p>
             </div>
           </div>

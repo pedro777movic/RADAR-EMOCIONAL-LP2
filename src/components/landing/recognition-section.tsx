@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button';
 import { MotionWrapper } from './motion-wrapper';
 
 export function RecognitionSection() {

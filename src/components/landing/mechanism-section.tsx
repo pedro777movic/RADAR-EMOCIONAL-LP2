@@ -3,7 +3,7 @@ import { MotionWrapper } from './motion-wrapper';
 const steps = [
   'Reativar o interesse',
   'Restaurar a tensão emocional',
-  'Fazer ele investir novamente',
+  'Fazer ele voltar a investir',
 ];
 
 export function MechanismSection() {
@@ -13,7 +13,7 @@ export function MechanismSection() {
         <MotionWrapper>
           <div className="text-center">
             <p className="font-headline text-lg text-muted-foreground">
-              Não é sobre joguinhos. É sobre instinto.
+              Não é sobre joguinhos. É sobre instinto emocional.
             </p>
             <h2 className="mt-2 font-headline text-3xl font-bold tracking-tight sm:text-4xl">
               Existe uma forma específica de...
@@ -47,7 +47,7 @@ export function MechanismSection() {
           <div className="text-center">
             <h3 className="font-headline text-3xl font-bold tracking-tight">
               Não é manipulação.{' '}
-              <span className="text-accent">É ajuste de energia.</span>
+              <span className="text-accent">É reposicionamento emocional.</span>
             </h3>
           </div>
           <div className="glass mx-auto mt-12 max-w-2xl rounded-xl p-6 md:p-8">
@@ -81,7 +81,7 @@ export function MechanismSection() {
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         1
                     </div>
-                    <p className="mt-4 text-sm text-muted-foreground px-2">Você responde algumas perguntas rápidas sobre a situação atual</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Você responde algumas perguntas rápidas sobre sua situação</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
@@ -99,7 +99,7 @@ export function MechanismSection() {
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         4
                     </div>
-                    <p className="mt-4 text-sm text-muted-foreground px-2">Recebe orientações práticas para reposicionar a dinâmica</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Recebe orientações práticas para ajustar a dinâmica</p>
                 </div>
               </div>
           </div>

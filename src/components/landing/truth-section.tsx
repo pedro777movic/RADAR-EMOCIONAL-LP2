@@ -1,5 +1,5 @@
 import { MotionWrapper } from './motion-wrapper';
-import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle } from '@/components/ui/card';
 import { Repeat, Target, HeartCrack, BatteryWarning } from 'lucide-react';
 
 const reasons = [
@@ -13,11 +13,11 @@ const reasons = [
   },
   {
     icon: <HeartCrack className="size-10 text-accent" />,
-    title: 'A tensão emocional some',
+    title: 'A tensão emocional diminui',
   },
   {
     icon: <BatteryWarning className="size-10 text-accent" />,
-    title: 'A energia muda sem você perceber',
+    title: 'A dinâmica muda sem você perceber',
   },
 ];
 
