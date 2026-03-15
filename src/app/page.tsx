@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useRef, useState, useEffect } from 'react';
@@ -27,6 +26,7 @@ export default function Home() {
   const section3Ref = useRef<HTMLDivElement>(null);
   const section4Ref = useRef<HTMLDivElement>(null);
 
+  // Monitoramento de progresso apenas na visão advertorial
   useEffect(() => {
     if (view !== 'advertorial') return;
 
@@ -48,7 +48,7 @@ export default function Home() {
           }
         });
       },
-      { threshold: 0.6 }
+      { threshold: 0.1 } // Sensibilidade aumentada
     );
 
     sections.forEach((section) => {
@@ -59,14 +59,15 @@ export default function Home() {
   }, [view]);
 
   const handleStartQuiz = () => {
+    // Scroll imediato para o topo antes de trocar a view
+    window.scrollTo({ top: 0, behavior: 'instant' });
     setView('quiz');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleQuizComplete = (data: { empatheticInsight: string; programRelevance: string }) => {
     setDiagnosisData(data);
+    window.scrollTo({ top: 0, behavior: 'instant' });
     setView('result');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -74,10 +75,10 @@ export default function Home() {
       <AnimatePresence mode="wait">
         {view === 'advertorial' && (
           <motion.div
-            key="advertorial"
+            key="advertorial-view"
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="flex w-full flex-col items-center overflow-x-hidden"
+            className="flex w-full flex-col items-center"
           >
             <GuidedReadingProgress progress={progress} />
             <HeroSection onStartQuiz={handleStartQuiz} />
@@ -103,11 +104,11 @@ export default function Home() {
 
         {view === 'quiz' && (
           <motion.div
-            key="quiz"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="flex min-h-screen w-full items-center justify-center p-4 bg-background"
+            key="quiz-view"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="flex min-h-screen w-full flex-col items-center justify-center py-10 px-4 bg-background"
           >
             <RadarQuiz onComplete={handleQuizComplete} />
           </motion.div>
@@ -115,7 +116,7 @@ export default function Home() {
 
         {view === 'result' && diagnosisData && (
           <motion.div
-            key="result"
+            key="result-view"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             className="flex w-full flex-col items-center"
