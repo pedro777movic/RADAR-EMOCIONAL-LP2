@@ -1,3 +1,4 @@
+
 'use client';
 import { Button } from '@/components/ui/button';
 import { MotionWrapper } from './motion-wrapper';
@@ -11,7 +12,11 @@ const features = [
   'Estratégias para recuperar controle emocional',
 ];
 
-export function CtaSection() {
+type CtaSectionProps = {
+  onStartQuiz: () => void;
+};
+
+export function CtaSection({ onStartQuiz }: CtaSectionProps) {
   return (
     <section className="w-full py-20 sm:py-32">
       <div className="container mx-auto max-w-4xl px-4 text-center">
@@ -19,7 +24,7 @@ export function CtaSection() {
           <p className="font-script text-3xl text-white transform -rotate-12 -mb-4 [text-shadow:0_0_8px_#fff,0_0_12px_#fff]">
             APP
           </p>
-          <h3 className="font-headline text-4xl sm:text-5xl font-black text-accent mb-4 tracking-tight transform -rotate-2 [text-shadow:0_0_10px_hsl(var(--accent)),2px_2px_2px_rgba(0,0,0,0.3)] [-webkit-text-stroke:0.5px_red]">
+          <h3 className="font-headline text-4xl sm:text-5xl font-black text-accent mb-4 tracking-tight transform -rotate-2 [text-shadow:0_0_10px_hsl(var(--accent)),2px_2px_2px_rgba(0,0,0,0.3)]">
             Radar Emocional
           </h3>
           <p className="mb-8 mx-auto max-w-2xl text-sm text-muted-foreground leading-relaxed">
@@ -34,11 +39,13 @@ export function CtaSection() {
           
           <div className="mt-10">
             <p className="text-sm text-muted-foreground mb-4">O acesso ao aplicativo é liberado após a confirmação do pagamento.</p>
-            <a href="https://pay.cakto.com.br/39e5qza_779133">
-              <Button size="lg" className="animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)]">
-                Quero acessar agora
-              </Button>
-            </a>
+            <Button 
+              size="lg" 
+              onClick={onStartQuiz}
+              className="animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)]"
+            >
+              Quero acessar agora
+            </Button>
           </div>
 
           <div className="mt-10 mx-auto max-w-md">
