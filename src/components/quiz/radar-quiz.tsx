@@ -73,7 +73,6 @@ export function RadarQuiz({ onComplete }: RadarQuizProps) {
         onComplete(result);
       } catch (error) {
         console.error('Erro ao gerar diagnóstico:', error);
-        // Fallback simples caso a IA falhe para não travar a experiência
         onComplete({
           empatheticInsight: "Identificamos um padrão de esfriamento emocional onde a previsibilidade está afetando o interesse dele.",
           programRelevance: "O Radar Emocional ajudará você a reestabelecer a tensão emocional necessária para ele voltar a investir na relação."

@@ -48,7 +48,7 @@ export default function Home() {
           }
         });
       },
-      { threshold: 0.1 } // Sensibilidade aumentada
+      { threshold: 0.1 }
     );
 
     sections.forEach((section) => {
@@ -59,7 +59,7 @@ export default function Home() {
   }, [view]);
 
   const handleStartQuiz = () => {
-    // Scroll imediato para o topo antes de trocar a view
+    // Scroll imediato para o topo e troca de view
     window.scrollTo({ top: 0, behavior: 'instant' });
     setView('quiz');
   };
@@ -71,7 +71,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-background text-foreground">
+    <main className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <AnimatePresence mode="wait">
         {view === 'advertorial' && (
           <motion.div
@@ -105,9 +105,9 @@ export default function Home() {
         {view === 'quiz' && (
           <motion.div
             key="quiz-view"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
             className="flex min-h-screen w-full flex-col items-center justify-center py-10 px-4 bg-background"
           >
             <RadarQuiz onComplete={handleQuizComplete} />
@@ -117,8 +117,8 @@ export default function Home() {
         {view === 'result' && diagnosisData && (
           <motion.div
             key="result-view"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
             className="flex w-full flex-col items-center"
           >
             <DiagnosisResult 
