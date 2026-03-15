@@ -19,6 +19,13 @@ export function HeroSection({ onStartQuiz }: HeroSectionProps) {
       <div className="absolute -right-1/4 bottom-0 h-1/2 w-1/2 animate-orb-pulse rounded-full bg-cyan-500/30 opacity-50 blur-3xl"></div>
       
       <div className="container relative z-10 mx-auto max-w-4xl px-4 text-center">
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-primary"
+        >
+          Análise de Dinâmica Emocional
+        </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -33,25 +40,27 @@ export function HeroSection({ onStartQuiz }: HeroSectionProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
-          className="mx-auto mt-6 max-w-2xl font-body text-lg text-muted-foreground md:text-xl"
+          className="mx-auto mt-6 max-w-2xl font-body text-lg text-muted-foreground md:text-xl leading-relaxed"
         >
           Existe um padrão invisível que faz homens se afastarem…
           <br />
-          Mesmo quando ainda sentem algo.
+          Mesmo quando ainda sentem algo. Este artigo revela o porquê.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
+          className="mt-10 flex flex-col items-center gap-4"
         >
           <Button 
             size="lg" 
             onClick={onStartQuiz}
-            className="mt-10 animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)]"
+            className="animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)]"
           >
-            Quero entender o que está acontecendo
+            Fazer meu diagnóstico agora
             <MoveRight className="ml-2 h-5 w-5" />
           </Button>
+          <p className="text-xs text-muted-foreground">Tempo estimado: 1 minuto</p>
         </motion.div>
       </div>
 
@@ -59,9 +68,10 @@ export function HeroSection({ onStartQuiz }: HeroSectionProps) {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1, repeat: Infinity, repeatType: 'reverse' }}
-        className="absolute bottom-10"
+        className="absolute bottom-10 flex flex-col items-center gap-2"
       >
-        <ArrowDown className="h-6 w-6 text-muted-foreground" />
+        <span className="text-[10px] uppercase tracking-widest text-muted-foreground">Continuar lendo</span>
+        <ArrowDown className="h-4 w-4 text-muted-foreground" />
       </motion.div>
     </section>
   );
