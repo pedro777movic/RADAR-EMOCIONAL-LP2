@@ -106,7 +106,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="flex min-h-screen w-full items-center justify-center p-4"
+            className="flex min-h-screen w-full items-center justify-center p-4 bg-background"
           >
             <RadarQuiz onComplete={handleQuizComplete} />
           </motion.div>
