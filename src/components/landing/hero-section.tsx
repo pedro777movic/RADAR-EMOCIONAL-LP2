@@ -19,13 +19,6 @@ export function HeroSection({ onStartQuiz }: HeroSectionProps) {
       <div className="absolute -right-1/4 bottom-0 h-1/2 w-1/2 animate-orb-pulse rounded-full bg-cyan-500/30 opacity-50 blur-3xl"></div>
       
       <div className="container relative z-10 mx-auto max-w-4xl px-4 text-center">
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-primary"
-        >
-          Análise de Dinâmica Emocional
-        </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
