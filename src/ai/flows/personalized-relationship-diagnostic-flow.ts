@@ -22,11 +22,11 @@ export type PersonalizedRelationshipDiagnosticInput = z.infer<
 const PersonalizedRelationshipDiagnosticOutputSchema = z.object({
   empatheticInsight: z
     .string()
-    .describe('An empathetic and personalized insight into the user\'s relationship challenges.'),
+    .describe('A VERY CONCISE (max 2-3 sentences) empathetic insight into the user\'s situation.'),
   programRelevance: z
     .string()
     .describe(
-      'An explanation of how the "Lunar Attraction" program specifically addresses the user\'s challenges.'
+      'A BRIEF explanation (max 2 sentences) of how the "Lunar Attraction" program solves this specific situation.'
     ),
 });
 export type PersonalizedRelationshipDiagnosticOutput = z.infer<
@@ -43,12 +43,12 @@ const prompt = ai.definePrompt({
   name: 'personalizedRelationshipDiagnosticPrompt',
   input: {schema: PersonalizedRelationshipDiagnosticInputSchema},
   output: {schema: PersonalizedRelationshipDiagnosticOutputSchema},
-  prompt: `You are an empathetic and insightful relationship expert, specializing in dynamic emotional patterns.
-Your goal is to provide a personalized understanding of the user's challenges and explain how the "Lunar Attraction" program can help.
+  prompt: `You are an empathetic relationship expert. Your goal is to provide a BRIEF, direct, and powerful analysis.
 
-Based on the user's situation, provide:
-1. An empathetic insight into their struggles, validating their feelings and identifying underlying patterns.
-2. Explain how the "Lunar Attraction" program, which focuses on re-activating interest, restoring emotional tension, making someone invest again without neediness, and adjusting energy, can specifically address their described challenges.
+Instructions:
+- Be concise. Use max 3 short sentences for the insight.
+- Be direct. Identify the core emotional pattern immediately.
+- For program relevance, explain in 1 or 2 sentences how the "Lunar Attraction" repositioning strategy solves the problem.
 
 User's Situation: {{{userSituation}}}`,
 });
