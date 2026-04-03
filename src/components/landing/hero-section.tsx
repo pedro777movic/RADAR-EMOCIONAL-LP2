@@ -1,4 +1,3 @@
-
 'use client';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, MoveRight } from 'lucide-react';
@@ -48,10 +47,10 @@ export function HeroSection({ onStartQuiz }: HeroSectionProps) {
           <Button 
             size="lg" 
             onClick={onStartQuiz}
-            className="animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)]"
+            className="animate-glow-pulse font-bold tracking-wider shadow-[0_0_20px_theme(colors.primary/0.5)] transition-shadow hover:shadow-[0_0_30px_theme(colors.primary/0.8)] h-14 px-8 text-lg"
           >
-            Fazer meu diagnóstico agora
-            <MoveRight className="ml-2 h-5 w-5" />
+            Iniciar Protocolo de Reação
+            <MoveRight className="ml-2 h-6 w-6" />
           </Button>
           <p className="text-xs text-muted-foreground">Tempo estimado: 1 minuto</p>
         </motion.div>

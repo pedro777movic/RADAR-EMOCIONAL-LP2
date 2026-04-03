@@ -1,9 +1,9 @@
 import { MotionWrapper } from './motion-wrapper';
 
 const steps = [
-  'Reativar o interesse',
-  'Restaurar a tensão emocional',
-  'Fazer ele voltar a investir',
+  'Reativar o interesse em até 24 horas',
+  'Restaurar a tensão emocional através de gatilhos comportamentais',
+  'Fazer ele voltar a investir e buscar você primeiro',
 ];
 
 export function MechanismSection() {
@@ -99,7 +99,7 @@ export function MechanismSection() {
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         4
                     </div>
-                    <p className="mt-4 text-sm text-muted-foreground px-2">Recebe orientações práticas para ajustar a dinâmica</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Você recebe o Plano de Reação com os scripts exatos para enviar e reverter o silêncio dele.</p>
                 </div>
               </div>
           </div>

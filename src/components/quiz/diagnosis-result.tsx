@@ -48,7 +48,7 @@ export function DiagnosisResult({ insight, relevance }: DiagnosisResultProps) {
             <div className="space-y-4">
               <h3 className="font-bold text-foreground flex items-center gap-2">
                 <ShieldCheck className="text-primary size-5" />
-                Como o Radar Emocional vai agir:
+                Seu Protocolo de Reação Imediata:
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {relevance}
@@ -65,17 +65,17 @@ export function DiagnosisResult({ insight, relevance }: DiagnosisResultProps) {
         >
           <div className="glass rounded-xl p-6 border-accent/20 bg-accent/5">
             <p className="text-sm font-medium mb-4">
-              Você agora tem a clareza do risco. O próximo passo é o **Reposicionamento**.
+              Você agora tem a clareza do risco. O próximo passo é o <strong>Protocolo de Reação</strong>.
             </p>
             <a href="https://pay.cakto.com.br/39e5qza_779133" className="block w-full">
               <Button size="lg" className="w-full md:w-auto px-12 h-14 font-black text-lg animate-glow-pulse">
-                Acessar Plano de Ação do Radar
+                Acessar Protocolo de Reação
                 <ArrowRight className="ml-2" />
               </Button>
             </a>
           </div>
           <p className="text-xs text-muted-foreground">
-            Acesso imediato ao Radar Emocional • Diagnóstico completo • Metodologia Lunar Attraction
+            Acesso imediato ao Radar Emocional • Plano de 24 horas • Metodologia Lunar Attraction
           </p>
         </motion.div>
       </motion.div>
