@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ShieldCheck, ArrowRight, BrainCircuit } from 'lucide-react';
+import { ShieldCheck, ArrowRight, BrainCircuit, AlertCircle } from 'lucide-react';
 
 type DiagnosisResultProps = {
   insight: string;
@@ -21,7 +21,7 @@ export function DiagnosisResult({ insight, relevance }: DiagnosisResultProps) {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-4">
             <BrainCircuit className="size-4" />
-            Análise Concluída
+            Análise de Padrão Concluída
           </div>
           <h1 className="text-4xl md:text-5xl font-black tracking-tight mb-4">
             Seu Diagnóstico <span className="text-primary">Especializado</span>
@@ -34,12 +34,12 @@ export function DiagnosisResult({ insight, relevance }: DiagnosisResultProps) {
         <Card className="glass border-primary/20 shadow-2xl mb-8 overflow-hidden">
           <CardHeader className="bg-primary/5 border-b border-primary/10">
             <CardTitle className="text-lg font-bold flex items-center gap-2">
-              <span className="size-2 rounded-full bg-primary animate-pulse" />
-              Insight da Situação
+              <AlertCircle className="size-5 text-primary animate-pulse" />
+              Insight Crítico da Situação
             </CardTitle>
           </CardHeader>
           <CardContent className="p-6 md:p-8 space-y-6">
-            <div className="prose prose-invert max-w-none text-muted-foreground leading-relaxed italic">
+            <div className="prose prose-invert max-w-none text-foreground leading-relaxed italic text-lg">
               "{insight}"
             </div>
             
@@ -65,17 +65,17 @@ export function DiagnosisResult({ insight, relevance }: DiagnosisResultProps) {
         >
           <div className="glass rounded-xl p-6 border-accent/20 bg-accent/5">
             <p className="text-sm font-medium mb-4">
-              Você agora tem a clareza. O próximo passo é o **Reposicionamento**.
+              Você agora tem a clareza do risco. O próximo passo é o **Reposicionamento**.
             </p>
             <a href="https://pay.cakto.com.br/39e5qza_779133" className="block w-full">
               <Button size="lg" className="w-full md:w-auto px-12 h-14 font-black text-lg animate-glow-pulse">
-                Acessar Plano de Ação Completo
+                Acessar Plano de Ação do Radar
                 <ArrowRight className="ml-2" />
               </Button>
             </a>
           </div>
           <p className="text-xs text-muted-foreground">
-            Acesso imediato ao aplicativo digital • Diagnóstico completo • Suporte Lunar Attraction
+            Acesso imediato ao Radar Emocional • Diagnóstico completo • Metodologia Lunar Attraction
           </p>
         </motion.div>
       </motion.div>
