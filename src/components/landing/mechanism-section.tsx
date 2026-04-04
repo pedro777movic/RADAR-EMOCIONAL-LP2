@@ -46,8 +46,8 @@ export function MechanismSection() {
         <MotionWrapper className="mt-24">
           <div className="text-center">
             <h3 className="font-headline text-3xl font-bold tracking-tight">
-              Não é manipulação.{' '}
-              <span className="text-accent">É reposicionamento emocional.</span>
+              Sem manipulação.{' '}
+              <span className="text-accent">É reposicionamento comportamental.</span>
             </h3>
           </div>
           <div className="glass mx-auto mt-12 max-w-2xl rounded-xl p-6 md:p-8">
