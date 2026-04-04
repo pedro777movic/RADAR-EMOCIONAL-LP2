@@ -13,7 +13,7 @@ export function MechanismSection() {
         <MotionWrapper>
           <div className="text-center">
             <p className="font-headline text-lg text-muted-foreground">
-              Não é sobre joguinhos. Es sobre instinto emocional.
+              E não é sobre joguinhos. É sobre instinto emocional.
             </p>
             <h2 className="mt-2 font-headline text-3xl font-bold tracking-tight sm:text-4xl">
               Existe uma forma específica de...
