@@ -5,7 +5,7 @@ import { Eye, ShieldAlert, MessageSquareCode, Sparkles, Magnet } from 'lucide-re
 const benefits = [
   {
     icon: <Eye className="size-8 text-primary" />,
-    text: 'O padrão invisível que faz ele esfriar e perder o interesse',
+    text: 'O padrão invisível que está fazendo ele esfriar e perder o interesse',
   },
   {
     icon: <ShieldAlert className="size-8 text-primary" />,
@@ -28,7 +28,7 @@ const benefits = [
 export function BenefitsSection() {
   return (
     <section className="w-full py-20 sm:py-32">
-      <div className="container mx-auto max-w-6xl px-4">
+      <div className="container mx-auto max-6xl px-4">
         <MotionWrapper>
           <div className="text-center">
             <p className="font-headline text-lg text-primary">Pequenas mudanças. Impacto profundo.</p>
