@@ -17,7 +17,7 @@ export function GuaranteeSection() {
           </h2>
           <div className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted-foreground space-y-4">
             <p>
-              Produto digital. Acesso imediato após pagamento.
+              Produto digital com acesso imediato.
             </p>
           </div>
           <div className="mt-8 space-y-1">
