@@ -24,7 +24,7 @@ export function RecognitionSection() {
                 </p>
                 <div className="my-6 h-px w-20 bg-white/20"></div>
                 <p className="text-lg font-semibold text-accent">
-                Isso não é acaso. É dinâmica emocional.
+                Isso não é acaso. É um padrão comum nas dinâmicas emocionais.
                 </p>
                 <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
                   Para ajudar a entender esse padrão, criamos o Radar Emocional.
