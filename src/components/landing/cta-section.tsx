@@ -28,7 +28,7 @@ export function CtaSection({ onStartQuiz }: CtaSectionProps) {
           </h3>
           <p className="mb-8 mx-auto max-w-2xl text-sm text-muted-foreground leading-relaxed">
             Um aplicativo digital criado para entender o que está acontecendo na relação e fornecer o <strong>Protocolo de Reação Imediata</strong>. 
-            Você recebe o padrão emocional e comportamental da situação e o <strong>passo a passo prático para reposicionar a dinâmica e reativar o interesse dele ainda hoje.</strong>
+            Você recebe o padrão emocional e comportamental dele e da situação e o <strong>passo a passo prático para reposicionar a dinâmica e reativar o interesse dele ainda hoje.</strong>
           </p>
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
             Você pode continuar tentando adivinhar.
