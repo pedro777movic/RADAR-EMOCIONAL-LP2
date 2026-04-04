@@ -5,19 +5,19 @@ import { Eye, ShieldAlert, MessageSquareCode, Sparkles, Magnet } from 'lucide-re
 const benefits = [
   {
     icon: <Eye className="size-8 text-primary" />,
-    text: 'O padrão invisível que faz ele esfriar',
+    text: 'O padrão invisível que faz ele esfriar e perder o interesse',
   },
   {
     icon: <ShieldAlert className="size-8 text-primary" />,
-    text: 'O Protocolo de Resgate: O que fazer nos próximos 3 dias',
+    text: 'O Protocolo de Resgate: O que fazer nos próximos 3 dias para reativar o desejo e o interesse dele',
   },
   {
     icon: <MessageSquareCode className="size-8 text-primary" />,
-    text: 'Scripts de Mensagens: O que escrever quando ele visualiza e não responde',
+    text: 'Scripts de Mensagens: O que escrever quando ele esfria para deixá-lo sempre interessado ou recíproco',
   },
   {
     icon: <Sparkles className="size-8 text-primary" />,
-    text: 'Como recriar curiosidade naturalmente',
+    text: 'Como recriar curiosidade naturalmente sem se esforçar',
   },
   {
     icon: <Magnet className="size-8 text-primary" />,
