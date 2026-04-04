@@ -9,7 +9,7 @@ const benefits = [
   },
   {
     icon: <ShieldAlert className="size-8 text-primary" />,
-    text: 'O Protocolo de Resgate: O que fazer nos próximos 3 dias para reativar o desejo e o interesse dele',
+    text: 'O Protocolo de Resgate: o que fazer nos próximos 3 dias para reativar nele desejo e interesse',
   },
   {
     icon: <MessageSquareCode className="size-8 text-primary" />,
