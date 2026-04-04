@@ -27,7 +27,7 @@ export function TargetAudienceSection() {
             </ul>
             <div className="mt-8 rounded-lg border border-accent/50 bg-accent/10 p-4 text-center">
               <p className="font-semibold text-accent-foreground">
-                "Não é para quem quer joguinhos. É para quem quer consciência emocional."
+                "Não é sobre criar joguinhos. É para quem quer consciência relacional e emocional."
               </p>
             </div>
           </div>
