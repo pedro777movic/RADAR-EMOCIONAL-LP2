@@ -13,7 +13,7 @@ const benefits = [
   },
   {
     icon: <MessageSquareCode className="size-8 text-primary" />,
-    text: 'Scripts de Mensagens: se ele esfriar, o que escrever para sempre deixá-lo interessado ou recíproco',
+    text: 'Scripts de Mensagens: o que escrever para sempre deixá-lo interessado ou recíproco, e buscar você ativamente',
   },
   {
     icon: <Sparkles className="size-8 text-primary" />,
