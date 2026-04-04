@@ -21,7 +21,7 @@ const benefits = [
   },
   {
     icon: <Magnet className="size-8 text-primary" />,
-    text: 'Como fazer ele voltar a buscar você',
+    text: 'Como fazer ele voltar a buscar você ativamente',
   },
 ];
 
