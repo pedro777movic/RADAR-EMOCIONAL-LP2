@@ -27,9 +27,9 @@ export function RecognitionSection() {
                 Isso não é acaso. É um padrão comum nas dinâmicas emocionais.
                 </p>
                 <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
-                  Para ajudar a entender esse padrão, criamos o Radar Emocional.
+                  E para ajudar a entender e se reposicionar, criamos o Radar Emocional.
                   <br /><br />
-                  Um aplicativo digital que analisa sua situação atual e ativa a reciprocidade dele através da Inteligência Comportamental.
+                  Um aplicativo digital que analisa os gatilhos do relacionamento, e a partir do diagnóstico, protocola a sua reação, voltando a ativar a reciprocidade dele através de Inteligência Comportamental.
                 </p>
             </div>
         </MotionWrapper>
