@@ -13,7 +13,7 @@ export function MechanismSection() {
         <MotionWrapper>
           <div className="text-center">
             <p className="font-headline text-lg text-muted-foreground">
-              Não é sobre joguinhos. É sobre instinto emocional.
+              Não é sobre joguinhos. Es sobre instinto emocional.
             </p>
             <h2 className="mt-2 font-headline text-3xl font-bold tracking-tight sm:text-4xl">
               Existe uma forma específica de...
@@ -81,7 +81,7 @@ export function MechanismSection() {
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         1
                     </div>
-                    <p className="mt-4 text-sm text-muted-foreground px-2">Você nos conta sobre sua situação respondendo algumas perguntas</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Você conta sobre a situação respondendo algumas perguntas, ou com prints e mensagens copia e cola</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
