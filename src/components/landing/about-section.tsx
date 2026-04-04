@@ -14,10 +14,10 @@ export function AboutSection() {
                 O Radar Emocional foi desenvolvido pela equipe Lunar Attraction, dedicada ao estudo de padrões emocionais em dinâmicas de relacionamento.
               </p>
               <p>
-                A partir da análise de diversas situações reais, foi criado um sistema de diagnóstico que avalia sinais comportamentais como: nível de investimento emocional, padrão de comunicação e mudanças de comportamento.
+                A partir da análise dos padrões psicológicos de milhares de relacionamentos, foi criado um sistema de diagnóstico que avalia sinais comportamentais como: padrões psicológicos dos envolvidos, nível de investimento emocional, existência de manipulação, padrão de comunicação e de ação, mudanças de comportamento, e muito mais.
               </p>
               <p>
-                Com base nas respostas, o aplicativo identifica o momento atual da relação e apresenta orientações claras sobre possíveis ajustes.
+                Com base nas respostas, o aplicativo identifica o momento atual dos envolvidos e da relação, e apresenta orientações claras sobre os ajustes a se tomar para obter o efeito desejado.
               </p>
             </div>
           </div>
