@@ -36,7 +36,7 @@ export function HeroSection({ onStartQuiz }: HeroSectionProps) {
         >
           Existe um padrão invisível que faz homens se afastarem…
           <br />
-          Mesmo quando ainda sentem algo. Este artigo revela o porquê.
+          Mesmo se ainda sentem algo. Este artigo revela o porquê.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
