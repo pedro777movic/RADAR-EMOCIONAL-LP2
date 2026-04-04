@@ -27,8 +27,8 @@ export function CtaSection({ onStartQuiz }: CtaSectionProps) {
             Radar Emocional
           </h3>
           <p className="mb-8 mx-auto max-w-2xl text-sm text-muted-foreground leading-relaxed">
-            Uma ferramenta digital criada para revelar o padrão emocional invisível e fornecer o <strong>Protocolo de Reação Imediata</strong>. 
-            Você recebe o diagnóstico da situação e o <strong>passo a passo prático para reposicionar a dinâmica e reativar o interesse dele ainda hoje.</strong>
+            Um aplicativo digital criado para entender o que está acontecendo na relação e fornecer o <strong>Protocolo de Reação Imediata</strong>. 
+            Você recebe o padrão emocional e comportamental da situação e o <strong>passo a passo prático para reposicionar a dinâmica e reativar o interesse dele ainda hoje.</strong>
           </p>
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
             Você pode continuar tentando adivinhar.
