@@ -9,7 +9,7 @@ const reasons = [
   },
   {
     icon: <Target className="size-10 text-accent" />,
-    title: 'O desafio desaparece',
+    title: 'O desafio torna-se óbvio',
   },
   {
     icon: <HeartCrack className="size-10 text-accent" />,
