@@ -2,8 +2,8 @@ import { MotionWrapper } from './motion-wrapper';
 import { CheckCircle2 } from 'lucide-react';
 
 const whoIsItFor = [
-  'Mulheres que estavam vivendo algo e sentem que esfriou',
-  'Quem percebe que ele mudou de comportamento',
+  'Mulheres que estavam vivendo algo e sentem que esfriou ou desinteressou',
+  'Quem percebe que ele mudou de comportamento, ou se está apenas manipulando',
   'Quem não quer parecer carente ou desesperada',
   'Quem quer ser desejada — não implorar atenção',
 ];
