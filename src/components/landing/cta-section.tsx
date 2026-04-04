@@ -4,10 +4,10 @@ import { MotionWrapper } from './motion-wrapper';
 import { Check } from 'lucide-react';
 
 const features = [
-  'Diagnóstico inicial do padrão emocional e comportamental dele e da relação',
-  'Análise clara do que está acontecendo na relação com estratégias para reativar desejo e interesse',
-  'Protocolo de Reação: Scripts de mensagens (Copy-Paste) para fazê-lo voltar a investir',
-  'O Plano de 24 horas do que você vai fazer para ele voltar a desejar, se interessar e ser recíproco',
+  'Diagnóstico do padrão emocional e comportamental dele e da relação',
+  'Análise clara do que está acontecendo na relação e estratégias para reativar desejo e interesse',
+  'Protocolo de Reação: Scripts de mensagens (Copy-Paste) para fazê-lo voltar a desejar, se interessar ou ser recíproco',
+  'O Plano de 24 horas do que fazer para ele voltar a investir',
   'Estratégias para recuperar o controle e o valor percebido sobre a relação',
 ];
 
