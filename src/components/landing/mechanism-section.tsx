@@ -93,7 +93,7 @@ export function MechanismSection() {
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         3
                     </div>
-                    <p className="mt-4 text-sm text-muted-foreground px-2">Você recebe um diagnóstico claro do que está acontecendo baseado em padrões emocionais e comportamentais</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Você recebe um diagnóstico claro do que está acontecendo baseado nos padrões e nas entrelinhas</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
