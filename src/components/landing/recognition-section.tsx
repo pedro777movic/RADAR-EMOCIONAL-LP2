@@ -29,7 +29,7 @@ export function RecognitionSection() {
                 <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
                   E para ajudar a entender e se reposicionar, criamos o Radar Emocional.
                   <br /><br />
-                  Um aplicativo digital que analisa os gatilhos do relacionamento, e a partir do diagnóstico, protocola a sua reação, voltando a ativar a reciprocidade dele através de Inteligência Comportamental.
+                  Um aplicativo digital que analisa os gatilhos do relacionamento, e a partir do diagnóstico, protocola a sua reação, voltando a ativar o interesse dele através de Inteligência Comportamental.
                 </p>
             </div>
         </MotionWrapper>
