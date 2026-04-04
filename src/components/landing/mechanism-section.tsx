@@ -81,25 +81,25 @@ export function MechanismSection() {
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         1
                     </div>
-                    <p className="mt-4 text-sm text-muted-foreground px-2">Você responde algumas perguntas rápidas sobre sua situação</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Você nos conta sobre sua situação respondendo algumas perguntas</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         2
                     </div>
-                    <p className="mt-4 text-sm text-muted-foreground px-2">O aplicativo identifica o padrão emocional da relação</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">O aplicativo especializado identifica o padrão emocional dele e da relação</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         3
                     </div>
-                    <p className="mt-4 text-sm text-muted-foreground px-2">Você recebe um diagnóstico claro do que está acontecendo</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Você recebe um diagnóstico claro do que está acontecendo baseado em padrões emocionais e comportamentais</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         4
                     </div>
-                    <p className="mt-4 text-sm text-muted-foreground px-2">Você recebe o Plano de Reação com os scripts exatos para enviar e reverter o silêncio dele.</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Você recebe o Plano de Reação com os scripts exatos para enviar e obter novamente o desejo e a reciprocidade dele</p>
                 </div>
               </div>
           </div>
