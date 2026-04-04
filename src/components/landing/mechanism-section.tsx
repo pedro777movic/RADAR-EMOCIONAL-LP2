@@ -2,7 +2,7 @@ import { MotionWrapper } from './motion-wrapper';
 
 const steps = [
   'Reativar o desejo e o interesse em até 24 horas',
-  'Restaurar a tensão emocional através de gatilhos comportamentais',
+  'Restaurar a tensão emocional e o controle da relação através de gatilhos comportamentais',
   'Fazer ele voltar a investir e buscar você primeiro',
 ];
 
