@@ -3,7 +3,7 @@ import { CheckCircle2 } from 'lucide-react';
 
 const whoIsItFor = [
   'Mulheres que estavam vivendo algo e sentem que ele esfriou ou se desinteressou',
-  'Quem percebe que ele mudou de comportamento, ou se está apenas manipulando',
+  'Se percebe que ele mudou de comportamento, ou se está manipulando',
   'Quem não quer parecer carente ou desesperada',
   'Quem quer ser desejada — não implorar atenção',
 ];
