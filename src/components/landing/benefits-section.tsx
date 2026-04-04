@@ -31,7 +31,7 @@ export function BenefitsSection() {
       <div className="container mx-auto max-6xl px-4">
         <MotionWrapper>
           <div className="text-center">
-            <p className="font-headline text-lg text-primary">Pequenas mudanças. Impacto profundo.</p>
+            <p className="font-headline text-lg text-primary">Mudanças com impacto profundo.</p>
             <h2 className="mt-2 font-headline text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
               O Que Você Vai Descobrir
             </h2>
