@@ -17,7 +17,7 @@ const reasons = [
   },
   {
     icon: <BatteryWarning className="size-10 text-accent" />,
-    title: 'Você está sendo perfeitamente manipulada',
+    title: 'É fácil a manipulação',
   },
 ];
 
